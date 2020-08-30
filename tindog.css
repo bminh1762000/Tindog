@@ -1,0 +1,158 @@
+#title{
+    background-color: #ff4c68;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+.banner{
+    margin-top: 10%;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    text-align: left;
+}
+h2{
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    text-align: center;
+}
+.container{
+
+    height: 50vh;;
+}
+.navbar-brand{
+    font-size: 2.5rem;
+}
+.nav-link{
+    font-size: 1.4rem; 
+}
+.nav-item{
+    padding: 0px 20px;
+}
+.btn{
+    padding: 10px 30px;
+    font-size: 19px;
+}
+.petimg img{
+    border-radius: 5px;
+    width: 80%;
+    transform: rotate(25deg);
+}
+.petimg{
+    text-align: center;
+}
+.download-button{
+    margin: 5% 3% 3% 0;
+}
+.icon{
+    color: #ef8172;
+    font-size: 60px;
+}
+
+/* Slide section */
+
+#slide{
+    background-color: #ff6348;
+    text-align: center;
+    padding: 7% 15%;
+    color: #ffff;
+}
+.carousel-item img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    margin: 20px;
+}
+em {
+    font-weight: bold;
+}
+/* Features section */
+
+#features{
+    padding: 7% 15%;
+}
+.col-lg-4{
+    text-align: center;
+    padding: 4.5%;
+}
+.col-lg-4 h3{
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+.col-lg-4 p{
+    color: #8f8f8f;
+    font-size: 1.2rem;
+}
+span .icon:hover{
+    color: #ff4c68;
+}
+/* Price Section */
+#price{
+    padding: 7% 15%;
+}
+/* Update Section */
+#update{
+    background-color: #ff4c68;
+    padding: 7% 15%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+#update h1{
+    text-align: center;
+    color: white;
+    font-size: 4rem;
+    font-weight: 800;
+    font-family: 'Ubuntu', sans-serif;
+}
+/* last */
+#last{
+    text-align: center;
+    padding: 7% 15%;
+}
+.item {
+    margin-bottom: 1rem;
+}
+
+.brand {
+    padding: 5px 10px;
+    transition: 0.2s linear;
+    border-radius: 100%;
+}
+
+#last p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #8f8f8f;
+}
+span.brand:nth-child(1):hover{
+    transform: scale(1.5);
+    color: #4267b2;
+    background-color: white;
+    cursor: pointer;
+}
+span.brand:nth-child(2):hover{
+    transform: scale(1.5);
+    color: #1da1f2;
+    cursor: pointer;
+}
+span.brand:nth-child(3):hover{
+    transform: scale(1.5);
+    color: white;
+    background-color:#3498db;
+    cursor: pointer;
+}
+span.brand:nth-child(4):hover{
+    transform: scale(1.5);
+    color: white;
+    background-color:#3498db;
+    cursor: pointer;
+}
